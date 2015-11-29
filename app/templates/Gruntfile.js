@@ -600,9 +600,6 @@ module.exports = function (grunt) {
         }]
       },<% } %>
       server: {
-        options: {
-          optional: ['runtime']
-        },
         files: [{
           expand: true,
           cwd: '<%%= yeoman.server %>',
